@@ -38,13 +38,6 @@ See the [Manual Deployment Guide](https://github.com/Azure/azure-pixel-tracker/t
 See the [Continuous Release Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Continuous%Release) folder for a full set of instructions on how to put together a contiousus build and release process for the Pixel Tracker Solution using Visual Studio Team Services.
 
 For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
-## Final Thoughts
-
-As the world of IoT continues to grow, having a simple system for collecting data across an entire company is important. The pixel tracker solution presented is a light weight and flexible model for building a data collection platform in the cloud. Using the cloud can lead to faster development and better understanding of the total cost of a running a solution. 
-
-Many other tools could be used to enhance this solution. Using Visual Studio Team Services code can be developed and deployed within minutes. It provides the standard expectations of source control, with a deep integration with Azure. VSTS lets developers author and execute load tests on their systems to provide confidence before releases. Those types of tests, in additional to standard unit tests can be integrated into a continues release process. These tools mean developers can reach new levels of productivity. Azure makes big data tools like Spark easy to deploy and use. Experience with tools like this can be important to make sense of the enormous amounts of data being collected by systems like this Pixel Tracker. Previously, using a tool like Spark would require coordination of multiple teams to run, maintain, and use the system. And the system that was used was probably out of data, and users could not take advantage of recent feature improvements. Using these tools on Azure, the developer can always find up to date and working systems.
-
-Having this data available can also lead to new positions or opportunities in fields like data science. As data sizes grow, the more that is invested into analyzing the data, the greater the returns from the data. The cloud also expedites turning those types of learnings into deployed software usable in production systems. Similiar to the big data tools, Azure offers a wide variety of tools for data scientests. Many systems are designed with a tight integration with Python or R, the most common langagues used for data science in the cloud. 
 
 # Contributing
 
