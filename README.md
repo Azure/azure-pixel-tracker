@@ -36,7 +36,7 @@ For more information on how to tailor Cortana Intelligence to your needs [connec
 See the [Manual Deployment Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Manual%20Deployment) folder for a full set of instructions on how to put together and deploy the Pixel Tracker Solution using the Azure Portal. 
 
 ### Continuous Release 
-See the [Continuous Release Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Continuous%Release) folder for a full set of instructions on how to put together a contiousus build and release process for the Pixel Tracker Solution using Visual Studio Team Services.
+See the [Continuous Release Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Continuous%20Release) folder for a full set of instructions on how to put together a contiousus build and release process for the Pixel Tracker Solution using Visual Studio Team Services.
 
 For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
 
