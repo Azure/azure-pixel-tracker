@@ -16,7 +16,7 @@ The end-to-end solution is implemented in the cloud, using Microsoft Azure. The 
 ## Solution Architecture
 ![Solution Diagram Picture](resources/architecture.png)
 
-##Example use case
+## Example use case
 As an example, a website owner would like to know where people who visit the website live. Once the solution is deployed into the website owner's azure subscription, the tracking pixel must be added to the homepage of the webiste. Then, each user who vist's the webpage will generate a web request to the service running in Azure. The custom code will extract the user's IP address from the web request, and then use 3rd party data to convert the IP to an address. All of the request data will be stored in Azure Data Lake Store. Lastly, PowerBi can be used to create a simple dashboard visualizing the location data in the data lake store. 
 
 ## Getting Started
