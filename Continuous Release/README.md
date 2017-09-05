@@ -70,7 +70,7 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
     1. Select "Branch Policies" 
         1. Check "Protect this branch", note this will force all code changes to be submitted via pull request for this branch. 
         1. Select "+Add build policy"
-            1. Choose the "Build definition" that you created in the previous step. 
+            1. Choose the "Build definition" that you created in the previous step.
             1. Select "Save".
             
             
