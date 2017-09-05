@@ -32,8 +32,12 @@ As an example, a website owner would like to know where people who visit the web
 ## Technical Audiences
 
 ### Manual Deployment
-See the [Manual Deployment Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Manual%20Deployment) folder for a full set of instructions on how to put together and deploy the Pixel Tracker Solution using the Azure Portal. For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
+See the [Manual Deployment Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Manual%20Deployment) folder for a full set of instructions on how to put together and deploy the Pixel Tracker Solution using the Azure Portal. 
 
+### Continuous Release 
+See the [Continuous Release Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Continuous%Release) folder for a full set of instructions on how to put together a contiousus build and release process for the Pixel Tracker Solution using Visual Studio Team Services.
+
+For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
 ## Final Thoughts
 
 As the world of IoT continues to grow, having a simple system for collecting data across an entire company is important. The pixel tracker solution presented is a light weight and flexible model for building a data collection platform in the cloud. Using the cloud can lead to faster development and better understanding of the total cost of a running a solution. 
