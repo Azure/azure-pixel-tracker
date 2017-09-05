@@ -72,22 +72,7 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
         1. Select "+Add build policy"
             1. Choose the "Build definition" that you created in the previous step.
             1. Select "Save".
-            
-            
-        
-    
-    
-
-1. Pixel Tracker ARM
-
-    1.1 Import Pixel Tracker ARM from Github to VSTS
-
-    1.2 Create Build to validate ARM template
-        
-    1.3.1 Create Release Env to execute and clean up Functional Test
-        
-    1.3.2 Create Release Env for deployment
-        
+     
 2. Pixel Tracker Java
 
     2.1 Import Pixel Tracker Java from Github to VSTS
