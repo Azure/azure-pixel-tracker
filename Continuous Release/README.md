@@ -89,7 +89,7 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
         1. Advanced users may configure their own build agent.
     1. Select "Add Task", and choose the **Gradle** task.
         1. Enter *test* for "Tasks"
-        1. Change "Test Results Files" to ** \*\*/build/test-results/test/TEST-*.xml**
+        1. Change "Test Results Files" to **\*\*/build/test-results/test/TEST-*.xml**
         1. Choose a "Location" for deploying the resource group.
         1. Provide a "Template" location, which by default will be **azuredeploy.json**.
         1. Provide a "Template paramters" location, which by default will be **azuredeploy.parameters.json**.
