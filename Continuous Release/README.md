@@ -40,7 +40,7 @@ You will need a unique string to identify your deployment because some Azure ser
  
 We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N is a random integer that you choose and characters must be entered in in lowercase. Please open your memo file and write down "unique:[unique]" with "[unique]" replaced with your actual unique string.
 
-### Configure the Azure Resource Management template Contiuous Release
+### Configure the Azure Resource Management template gating build
 1. Log into the [Visual Studio Team Services Portal](visualstudio.com/) and navitage to the desired account.
 1. Navitage to the desired team's *Code* section.
 1. Select *Import repository* from the repository drop down menu.
@@ -72,7 +72,39 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
         1. Select "+Add build policy"
             1. Choose the "Build definition" that you created in the previous step.
             1. Select "Save".
-     
+
+### Configure the Java gating build
+1. Log into the [Visual Studio Team Services Portal](visualstudio.com/) and navitage to the desired account.
+1. Navitage to the desired team's *Code* section.
+1. Select *Import repository* from the repository drop down menu.
+    1. Enter **https://github.com/Azure/azure-pixel-tracker-java** for "Clone URL".
+     1. During PREVIEW use credentials, and enter your github username and github personal access token
+    1. Choose a "Name" for your new repository.
+    1. Complete the task by clicking "Import"
+1. Create a gating build to validate the master branch before commits can be made.
+    1. Select "Set up build" in the "Files" view of your new repository.
+    1. Select "Empty process" in the "Select a template" page.
+    1. Provide a "Name" for your build, such as **[UI]'s Pixel Tracker Java Gating Build**
+    1. Choose a default agent queue, such as **Hosted**
+        1. Advanced users may configure their own build agent.
+    1. Select "Add Task", and choose the **Gradle** task.
+        1. Enter *test* for "Tasks"
+        1. Change "Test Results Files" to ** \*\*/build/test-results/test/TEST-*.xml**
+        1. Choose a "Location" for deploying the resource group.
+        1. Provide a "Template" location, which by default will be **azuredeploy.json**.
+        1. Provide a "Template paramters" location, which by default will be **azuredeploy.parameters.json**.
+        1. Change "Deployment mode" from **Incremental** to **Validation only**.
+    1. Select "Save & queue".
+ 1. Configure the gating build to execute when a pull request is created by enabling protection on the master branch.
+    1. Return to the "Files" tab of your repository. 
+    1. Select "Manage repositories" from the repositories drop down menu. 
+    1. Select your repository from the list. 
+    1. Select "Master" from the drop down below your repository name. 
+    1. Select "Branch Policies" 
+        1. Check "Protect this branch", note this will force all code changes to be submitted via pull request for this branch. 
+        1. Select "+Add build policy"
+            1. Choose the "Build definition" that you created in the previous step.
+            1. Select "Save".     
 2. Pixel Tracker Java
 
     2.1 Import Pixel Tracker Java from Github to VSTS
