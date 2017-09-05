@@ -8,7 +8,7 @@
 
 ## Introduction
 
-The objective of this Guide is to demonstrate how to configure a continuous release enviromenet in Visual Studio Team services to build and publish the pixel tracker solution.
+Tche objective of this Guide is to demonstrate how to configure a continuous release enviromenet in Visual Studio Team services to build and publish the pixel tracker solution.
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ The following are the steps to deploy the end-to-end solution for the predictive
 
 This tutorial will refer to files available in the [Java](https://github.com/Azure/azure-pixel-tracker-java) and [ARM](https://github.com/Azure/azure-pixel-tracker-arm) submodules of the [Azure Digitial Marketing Pixel Tracker git repository](https://github.com/Azure/azure-pixel-tracker). You can download all of these files at once by clicking the "Clone or download" button on the repository.
 
-You can download or view individual files by navigating through the repository folders. If you choose this option, be sure to download the "raw" version of each file by clicking the filename to view it, then cliking Download.
+You can download or view individual files by navigating through the repository folders. If you choose this option, be sure to download the "raw" version of each file by clicking the filename to view it, then clicking Download.
 
 ### Choose a Unique String
 
@@ -70,8 +70,8 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
     1. Select "Branch Policies" 
         1. Check "Protect this branch", note this will force all code changes to be submitted via pull request for this branch. 
         1. Select "+Add build policy"
-            1. Choose the "Build definition" to you created in the previous step. 
-            1. Select "Save"
+            1. Choose the "Build definition" that you created in the previous step. 
+            1. Select "Save".
             
             
         
