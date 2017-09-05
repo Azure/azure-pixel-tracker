@@ -21,7 +21,7 @@ The steps described later in this guide require the following prerequisites:
 
 Figure 1 illustrates the Azure architecture that we will create.
 
-![Figure 1: Architecture](resources/architecture.png)
+![Figure 1: Architecture](../resources/architecture.png)
 Figure 1: Architecture
 
 ## Setup Steps
