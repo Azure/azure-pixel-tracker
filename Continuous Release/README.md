@@ -21,7 +21,7 @@ The steps described later in this guide require the following prerequisites:
 
 Figure 1 illustrates the Azure architecture that we will create.
 
-![Figure 1: Architecture](../resources/architecture.png)
+ ![Figure 1: Architecture](../resources/architecture.png)
 Figure 1: Architecture
 
 ## Setup Steps
@@ -53,14 +53,14 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
     1. Select "Empty process" in the "Select a template" page.
     1. Provide a "Name" for your build, such as **[UI]'s Pixel Tracker ARM Gating Build**
     1. Choose a default agent queue, such as **Hosted**
-     1. Advanced user's name configure their own build agent.
+        1. Advanced user's name configure their own build agent.
     1. Select "Add Task", and choose the **Azure Resource Group Deployment** task.
-     1. Choose an "Azure subscription" from the drop down menu. 
-     1. Provide a name for the Resource Group, such as **[UI]pixeltracker[N]**
-     1. Choose a "Location" for deploying the resource group.
-     1. Provide a "Template" location, which by default will be **azuredeploy.json**
-     1. Provide a "Template paramters" location, which by default will be **azuredeploy.parameters.json**
-     1. Change "Deployment mode" from **Incremental** to **Validation only**.
+        1. Choose an "Azure subscription" from the drop down menu. 
+        1. Provide a name for the Resource Group, such as **[UI]pixeltracker[N]**
+        1. Choose a "Location" for deploying the resource group.
+        1. Provide a "Template" location, which by default will be **azuredeploy.json**
+        1. Provide a "Template paramters" location, which by default will be **azuredeploy.parameters.json**
+        1. Change "Deployment mode" from **Incremental** to **Validation only**.
     1. Select "Save & queue"
     
 
