@@ -25,20 +25,24 @@ Figure 1 illustrates the Azure architecture that we will create.
 Figure 1: Architecture
 
 ## Setup Steps
-1. Import Pixel Tracker ARM from Github to VSTS
+1. Pixel Tracker ARM
 
-    1.1 Create Build to validate ARM template
+    1.1 Import Pixel Tracker ARM from Github to VSTS
+
+    1.2 Create Build to validate ARM template
         
-    1.2.1 Create Release Env to execute and clean up Functional Test
+    1.3.1 Create Release Env to execute and clean up Functional Test
         
-    1.2.2 Create Release Env for deployment
+    1.3.2 Create Release Env for deployment
         
-2. Import Pixel Tracker Java from Github to VSTS
+2. Pixel Tracker Java
+
+    2.1 Import Pixel Tracker Java from Github to VSTS
       
-    2.1 Create Build to gate master branch
+    2.2 Create Build to gate master branch
     
-    2.2 Create Build to compile master branch    
+    2.3 Create Build to compile master branch    
 
-    2.3.1 Create Release Env to execute and clean up Functuional Test
+    2.4.1 Create Release Env to execute and clean up Functuional Test
           
-    2.3.2 Create Release Env for deployment
+    2.4.2 Create Release Env for deployment
