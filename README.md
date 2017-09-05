@@ -25,7 +25,7 @@ This solution package contains materials to help both technical and business aud
 
 ## Business Audiences
 
-In this repository you will find a folder labeled [*Solution Overview for Business Audiences*]() which contains a presentation covering this solution and benefits of using the Cortana Intelligence Suite.
+In this repository you will find a folder labeled [*Solution Overview for Business Audiences*](https://github.com/Azure/azure-pixel-tracker/tree/master/Solution%20Overview%20for%20Business%20Audiences) which contains a presentation covering this solution and benefits of using the Cortana Intelligence Suite.
 
 For more information on how to tailor Cortana Intelligence to your needs [connect with one of our partners](http://aka.ms/CISFindPartner).
 
