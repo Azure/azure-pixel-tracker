@@ -31,19 +31,17 @@ Figure 1: Architecture
     1.1 Create Build to validate ARM template
 
     1.2 Create Release
+        1.2.1 Create Env to execute and clean up Functional Test
         
-        i. Create Env to execute and clean up Functional Test
-        
-        ii. Create Env for deployment
+        1.2.2 Create Env for deployment
         
   2. Import Pixel Tracker Java from Github to VSTS
       
-      a. Create Build to gate master branch
+      2.1 Create Build to gate master branch
       
-      b. Create Build to compile master branch
+      2.2 Create Build to compile master branch
       
-      c. Create Release
+      2.3 Create Release         
+          2.3.1 Create Env to execute and clean up Functuional Test
           
-          i. Create Env to execute and clean up Functuional Test
-          
-          ii. Create Env for deployment
+          2.3.2 Create Env for deployment
