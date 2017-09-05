@@ -1,7 +1,27 @@
+# Azure Digitial Marketing - Pixel Tracker Continuous Release Guide
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Architecture](#architecture)
+- [Setup Steps](#setup-steps)
+
 ## Introduction
 
-The objective of this Guide is to demonstrate... .  Retailers can use these predictions to... . This tutorial also shows how .
+The objective of this Guide is to demonstrate how to configure a continuous release enviromenet in Visual Studio Team services to build and publish the pixel tracker solution.
 
-The end-to-end solution is implemented in the cloud, using Microsoft Azure. The solution is composed of several Azure components, including data ingest, data storage, data movement, advanced analytics and visualization.
+## Prerequisites
 
-This deployment guide will walk you through the steps of creating a pixel tracker solution, including:
+The steps described later in this guide require the following prerequisites:
+
+1.  An [Azure subscription](https://azure.microsoft.com/en-us/) with login credentials
+2. A [Visual Studo Team Services](https://www.visualstudio.com/en-us/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services) account
+
+## Architecture
+
+Figure 1 illustrates the Azure architecture that we will create.
+
+![Figure 1: Architecture](resources/architecture.png)
+Figure 1: Architecture
+
+## Setup Steps
