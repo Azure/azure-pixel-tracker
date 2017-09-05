@@ -102,7 +102,29 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
         1. Check "Protect this branch", note this will force all code changes to be submitted via pull request for this branch. 
         1. Select "+Add build policy"
             1. Choose the "Build definition" that you created in the previous step.
-            1. Select "Save".     
+            1. Select "Save".   
+            
+### Configure the Java artifacts build
+1. From the "Build" tab, select "+New"
+	1. Select "Empty process" in the "Select a template" page.
+	1. Provide a "Name" for your build, such as **[UI]'s Pixel Tracker Java Artifact Build**
+    1. Choose a default agent queue, such as **Hosted**
+    1. Select "Add Task", and choose the **Gradle** task.
+        1. Enter *build* for "Tasks"
+        1. Change "Test Results Files" to **\*\*/build/test-results/test/TEST-*.xml**
+        1. Select **Cobertura** for the "Code Coverage Tool"
+		1. Select "Run FindBugs"
+    1. Select "Add Task", and choose the **Copy Files** task.
+		1. Enter **$(build.sourcesdirectory)** for "Source Folder"
+		1. Enter **\*\*/\*.jar** for "Contents"
+		1. Enter **$(build.artifactstagingdirectory)** for "Target Folder"
+	1. Select "Add Task", and choose the **Copy Files** task.
+		1. Enter **server/src/main/resources** for "Source Folder"
+		1. Enter **\*.config** for "Contents"
+		1. Enter **$(build.artifactstagingdirectory)** for "Target Folder"
+    1. Select "Add Task", and choose the **Publish Build Artifacts** task.
+		1. Enter **$(build.artifactstagingdirectory)** for "Path to Publish"
+		1. Enter **drop** for "Artifact Name"            
 2. Pixel Tracker Java
 
     2.1 Import Pixel Tracker Java from Github to VSTS
