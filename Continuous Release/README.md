@@ -74,8 +74,6 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
             1. Select "Save".
 
 ### Configure the Java gating build
-1. Log into the [Visual Studio Team Services Portal](visualstudio.com/) and navitage to the desired account.
-1. Navitage to the desired team's *Code* section.
 1. Select *Import repository* from the repository drop down menu.
     1. Enter **https://github.com/Azure/azure-pixel-tracker-java** for "Clone URL".
      1. During PREVIEW use credentials, and enter your github username and github personal access token
