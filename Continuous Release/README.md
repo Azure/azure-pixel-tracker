@@ -40,7 +40,7 @@ You will need a unique string to identify your deployment because some Azure ser
  
 We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N is a random integer that you choose and characters must be entered in in lowercase. Please open your memo file and write down "unique:[unique]" with "[unique]" replaced with your actual unique string.
 
-### Configure the Resource Management Contious Release
+### Configure the Azure Resource Management template Contiuous Release
 1. Log into the [Visual Studio Team Services Portal](visualstudio.com/) and navitage to the desired account.
 1. Navitage to the desired team's *Code* section.
 1. Select *Import repository* from the repository drop down menu.
