@@ -129,3 +129,16 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
 	1. Select "Enable"
 	1. Select "Batch changes while a build is in progress". 
 1. Select "Save & queue".
+
+### Configure the release
+1. From the "Releases" tab, select "Create release definition" from the "+" dropdown.
+1. Select the **Azure App Service Deployment with Performance Test** template from the "Select a template" list.
+1. Provide a name for this Environment, such as **Integration**
+1. Select "+ Add artifact" to link to the Java Artifcat built in the previous step.
+	1. Select the "Source (Build definition)" which you named **[UI]'s Pixel Tracker Java Artifact Build**
+	1. Select "Add".
+1. Select the thunderbolt on the "Build" circle to enable "Continuous Integration".
+	1. Click the toggle to "Enable" 
+	1. Close with the "X"
+1. Configure the steps in the "Tasks" tab. 
+	1. 
