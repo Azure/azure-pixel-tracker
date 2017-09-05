@@ -1,0 +1,3 @@
+[submodule "azure-pixel-tracker-java"]
+	path = azure-pixel-tracker-java
+	url = https://github.com/Azure/azure-pixel-tracker-java.git
