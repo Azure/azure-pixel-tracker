@@ -125,7 +125,10 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
     1. Select "Add Task", and choose the **Publish Build Artifacts** task.
 		1. Enter **$(build.artifactstagingdirectory)** for "Path to Publish"
 		1. Enter **drop** for "Artifact Name"
-    1. Select "Save & queue".
+	1. Enable "Continuous Integration" from the "Triggers" tab.
+		1. Select "Enable"
+		1. Select "Batch changes while a build is in progress". 
+	1. Select "Save & queue".
 2. Pixel Tracker Java
 
     2.1 Import Pixel Tracker Java from Github to VSTS
