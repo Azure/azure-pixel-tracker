@@ -62,6 +62,20 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
         1. Provide a "Template paramters" location, which by default will be **azuredeploy.parameters.json**.
         1. Change "Deployment mode" from **Incremental** to **Validation only**.
     1. Select "Save & queue".
+ 1. Configure the gating build to execute when a pull request is created by enabling protection on the master branch.
+    1. Return to the "Files" tab of your repository. 
+    1. Select "Manage repositories" from the repositories drop down menu. 
+    1. Select your repository from the list. 
+    1. Select "Master" from the drop down below your repository name. 
+    1. Select "Branch Policies" 
+        1. Check "Protect this branch", note this will force all code changes to be submitted via pull request for this branch. 
+        1. Select "+Add build policy"
+            1. Choose the "Build definition" to you created in the previous step. 
+            1. Select "Save"
+            
+            
+        
+    
     
 
 1. Pixel Tracker ARM
