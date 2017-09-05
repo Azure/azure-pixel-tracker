@@ -31,7 +31,8 @@ As an example, a website owner would like to know where people who visit the web
 
 ## Technical Audiences
 
-See the [*Technical Deployment Guide*](Technical Deployment Guide/README.md) folder for a full set of instructions on how to put together and deploy a Pixel Tracker Solution using the Cortana Intelligence Suite. For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
+### Manual Deployment
+See the [*Manual Deployment Guide*](Manual Deployment/README.md) folder for a full set of instructions on how to put together and deploy the Pixel Tracker Solution using the Azure Portal. For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
 
 ## Final Thoughts
 
