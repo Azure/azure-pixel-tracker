@@ -23,11 +23,11 @@ As an example, a website owner would like to know where people who visit the web
 
 //This solution package contains materials to help both technical and business audiences understand our  Customer Churn Prediction Solution built on the [Cortana Intelligence Suite]().
 
-//## Business Audiences
+## Business Audiences
 
-//In this repository you will find a folder labeled [*Solution Overview for Business Audiences*]() which contains a presentation covering this solution and benefits of using the Cortana Intelligence Suite.
+In this repository you will find a folder labeled [*Solution Overview for Business Audiences*]() which contains a presentation covering this solution and benefits of using the Cortana Intelligence Suite.
 
-//For more information on how to tailor Cortana Intelligence to your needs [connect with one of our partners](http://aka.ms/CISFindPartner).
+For more information on how to tailor Cortana Intelligence to your needs [connect with one of our partners](http://aka.ms/CISFindPartner).
 
 ## Technical Audiences
 
