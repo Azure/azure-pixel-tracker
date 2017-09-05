@@ -25,6 +25,15 @@ Figure 1 illustrates the Azure architecture that we will create.
 Figure 1: Architecture
 
 ## Setup Steps
+
+The following are the steps to deploy the end-to-end solution for the predictive pipelines.
+
+### Accessing Files in the Git Repository
+
+This tutorial will refer to files available in the [Java](https://github.com/Azure/azure-pixel-tracker-java) and [ARM](https://github.com/Azure/azure-pixel-tracker-arm) submodules of the [Azure Digitial Marketing Pixel Tracker git repository](https://github.com/Azure/azure-pixel-tracker). You can download all of these files at once by clicking the "Clone or download" button on the repository.
+
+You can download or view individual files by navigating through the repository folders. If you choose this option, be sure to download the "raw" version of each file by clicking the filename to view it, then cliking Download.
+
 1. Pixel Tracker ARM
 
     1.1 Import Pixel Tracker ARM from Github to VSTS
