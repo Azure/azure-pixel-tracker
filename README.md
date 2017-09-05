@@ -21,7 +21,7 @@ As an example, a website owner would like to know where people who visit the web
 
 ## Getting Started
 
-//This solution package contains materials to help both technical and business audiences understand our  Customer Churn Prediction Solution built on the [Cortana Intelligence Suite]().
+This solution package contains materials to help both technical and business audiences understand our Pixel Tracking Solution built on the [Cortana Intelligence Suite](https://azure.microsoft.com/en-us/suites/cortana-intelligence).
 
 ## Business Audiences
 
