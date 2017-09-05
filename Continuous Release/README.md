@@ -1,5 +1,4 @@
-
-1. # Azure Digitial Marketing - Pixel Tracker Continuous Release Guide
+# Azure Digitial Marketing - Pixel Tracker Continuous Release Guide
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -29,19 +28,17 @@ Figure 1: Architecture
 1. Import Pixel Tracker ARM from Github to VSTS
 
     1.1 Create Build to validate ARM template
+        
+    1.2.1 Create Release Env to execute and clean up Functional Test
+        
+    1.2.2 Create Release Env for deployment
+        
+2. Import Pixel Tracker Java from Github to VSTS
+      
+    2.1 Create Build to gate master branch
+    
+    2.2 Create Build to compile master branch    
 
-    1.2 Create Release
-        1.2.1 Create Env to execute and clean up Functional Test
-        
-        1.2.2 Create Env for deployment
-        
-  2. Import Pixel Tracker Java from Github to VSTS
-      
-      2.1 Create Build to gate master branch
-      
-      2.2 Create Build to compile master branch
-      
-      2.3 Create Release         
-          2.3.1 Create Env to execute and clean up Functuional Test
+    2.3.1 Create Release Env to execute and clean up Functuional Test
           
-          2.3.2 Create Env for deployment
+    2.3.2 Create Release Env for deployment
