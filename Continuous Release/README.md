@@ -34,6 +34,19 @@ This tutorial will refer to files available in the [Java](https://github.com/Azu
 
 You can download or view individual files by navigating through the repository folders. If you choose this option, be sure to download the "raw" version of each file by clicking the filename to view it, then cliking Download.
 
+### Choose a Unique String
+
+You will need a unique string to identify your deployment because some Azure services, e.g. Azure Storage requires a unique name for each instance across the service. We suggest you use only letters and numbers in this string and the length should not be greater than 9.
+ 
+We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N is a random integer that you choose and characters must be entered in in lowercase. Please open your memo file and write down "unique:[unique]" with "[unique]" replaced with your actual unique string.
+
+###Configure the Resource Management Contious Release
+1. Log into the [Visual Studio Team Services Portal](visualstudio.com/) and navitage to the desired account.
+1. Navitage to the desired team's *Code* section.
+1. Select *Import repository* from the repository drop down menu.
+    1. Enter **https://github.com/Azure/azure-pixel-tracker-arm** for "Clone URL".
+    1. Choose a "Name" for your new repository.
+
 1. Pixel Tracker ARM
 
     1.1 Import Pixel Tracker ARM from Github to VSTS
