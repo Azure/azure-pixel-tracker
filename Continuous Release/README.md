@@ -1,5 +1,5 @@
 # Azure Digitial Marketing - Pixel Tracker Continuous Release Guide
-
+![][pixel-1]
 ## Table of Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
@@ -248,3 +248,6 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
 	1. Click "Release-1" to follow the release. 
 	
 		
+![][pixel-2]
+[pixel-1]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=Continuous+Release%2FREADME.MD&section=Top)
+[pixel-2]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=Continuous+Release%2FREADME.MD&section=Bottom)
