@@ -240,5 +240,11 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
 		1. with "Name" **webAppName**.
 		1. with "Value" **[UI]-prod-pixeltracker-[N]**.
 		1. with "Scope" **Production**.
+1. Click "Save". Confirm with "Okay".
+1. Perform a release
+	1. Click "+Release", then, "+ Create Release".
+	1. Choose the latest "Version" for both Git repositories. 
+	1. Select "Queue". 
+	1. Click "Release-1" to follow the release. 
 	
 		
