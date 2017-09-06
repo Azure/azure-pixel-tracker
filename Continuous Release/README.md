@@ -132,13 +132,93 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
 
 ### Configure the release
 1. From the "Releases" tab, select "Create release definition" from the "+" dropdown.
-1. Select the **Azure App Service Deployment with Performance Test** template from the "Select a template" list.
+1. Select **Empty proces** when asked to "Select a Template".
 1. Provide a name for this Environment, such as **Integration**
 1. Select "+ Add artifact" to link to the Java Artifcat built in the previous step.
 	1. Select the "Source (Build definition)" which you named **[UI]'s Pixel Tracker Java Artifact Build**
 	1. Select "Add".
+1. Select "+ Add" to include the ARM template Git.
+	1. For "Source Type", select **GIT**.
+	1. For "Source (repository)", select the git repository you created for the ARM template. 
+	1. Provide an alais for the repo, **arm-pixel-tracker-git**. 
+	1. Select "Add"
+1. Select "+ Add" to include the Java template Git, in order to run our integrated tests. 
+	1. For "Source Type", select **GIT**.
+	1. For "Source (repository)", select the git repository you created for the Java project. 
+	1. Provide an alais for the repo, **java-pixel-tracker-git**. 
+	1. Select "Add"
 1. Select the thunderbolt on the "Build" circle to enable "Continuous Integration".
 	1. Click the toggle to "Enable" 
 	1. Close with the "X"
 1. Configure the steps in the "Tasks" tab. 
-	1. 
+	1. Create a task to deploy the Resource Group into your Azure Subscription. 
+		1. Add a task to the phase by clicking "+" in the "Agent Phase" frame.
+		1. Select "Azure Resource Group Deployment"
+		1. Select your "Azure Subscription" from the drop down menu. 
+		1. Enter the "Resource group" as **$(rg)**
+		1. Select the "Location" **East US 2**.
+		1. Provide the following location for the "Template", **$(System.DefaultWorkingDirectory)/arm-pixel-tracker-git/azuredeploy.json**
+		1. Provide the following location for the "Template parameters", **$(System.DefaultWorkingDirectory)/arm-pixel-tracker-git/azuredeploy.paramters.json**
+		1. Provide the following for the "Override template parameters", **-environment $(env)**
+		1. Confirm the deployment mode is set to **Incremental**
+	1. Create a task to copy the Web.config file from VSTS to the Azure Web App using the provided PowerShell script.
+		1. Add a task to the phase by clicking "+" in the "Agent Phase" frame.
+		1. Select "Azure PowerShell"
+		1. Select your "Azure Subscription" from the drop down menu. 
+		1. Confirm "Script Type" is set to **Sccript File Path**
+		1. Enter the following for the "Script Path", **$(System.DefaultWorkingDirectory)/arm-pixel-tracker-git/deploySpring.ps1**
+		1. Enter the following for Script Arguments, **-appdirectory '$(System.DefaultWorkingDirectory)\[UI]'s Pixel Tracker Java Artifact Build\drop\' -resourceGroup $(rg) -webappname $(webAppName)**
+	1. Create a task to copy the Java jar from VSTS to the Azure Web App using the provided PowerShell script.
+		1. Add a task to the phase by clicking "+" in the "Agent Phase" frame.
+		1. Select "Azure PowerShell"
+		1. Select your "Azure Subscription" from the drop down menu. 
+		1. Confirm "Script Type" is set to **Sccript File Path**
+		1. Enter the following for the "Script Path", **$(System.DefaultWorkingDirectory)/arm-pixel-tracker-git/deploySpring.ps1**
+		1. Enter the following for Script Arguments, **-appdirectory '$(System.DefaultWorkingDirectory)\[UI]'s Pixel Tracker Java Artifact Build\drop\server\build\libs\' -resourceGroup $(rg) -webappname $(webAppName)**
+	1. Create a task to perform a ping test to confirm the server is up before performing integrated testing. 
+		1. Add a task to the phase by clicking "+" in the "Agent Phase" frame.
+		1. Select "Cloud-based Web Performance Test"
+		1. Leave the "VS Team Services Connection" empty in order to use your current VSTS account. 
+		1. Enter the "Website Url" as **http://$(webAppName).azurewebsites.net**
+		1. Enter the "test Name" as **Ping Test**
+		1. Set the "User Load" to **25**
+		1. Set the "Run Duration (sec)" to **60**
+		1. Confirm "Run load test using" is selected as **Automatically provisioned agents**.
+		1. Under the "Control Options" select "Continue on error". 
+	1. Create a task to perform the functional tests once the service is online. 
+		1. Add a task to the phase by clicking "+" in the "Agent Phase" frame.
+		1. Select the "Gradle" task. 
+		1. For the "Gradle Wrapper location provide the following, **$(System.DefaultWorkingDirectory)/java-pixel-tracking-git/gradlew**
+		1. For the "Options" provide the hostname as **-Phostname=http://$(webAppName).azurewebsites.net/**
+		1. For "Tasks" enter **integrationTest*. 
+		1. Set the "Test Reults Files" to **\*\*/build/test-results/integrationTest/TEST-*.xml**
+	1. Create a task to perform the functional tests once the service is online. 
+		1. Add a task to the phase by clicking "+" in the "Agent Phase" frame.
+		1. Select the "Cloud-based Web Performance Test" task. 
+		1. Leave the "VS Team Services Connection" empty in order to use your current VSTS account. 
+		1. Enter the "Website Url" as **http://$(webAppName).azurewebsites.net**
+		1. Enter the "test Name" as **Load Test**
+		1. Set the "User Load" to **25**
+		1. Set the "Run Duration (sec)" to **60**
+		1. Confirm "Run load test using" is selected as **Automatically provisioned agents**.
+		1. Confirm "Fail test if Avg.Repsonse Time(ms exceeeds)" is selected as **2500**.
+	1. Create a task to clean up the Resource Group in your Azure Subscription. 
+		1. Add a task to the phase by clicking "+" in the "Agent Phase" frame.
+		1. Select "Azure Resource Group Deployment"
+		1. Select your "Azure Subscription" from the drop down menu. 
+		1. Change the "Action" to **Delete resource group**
+		1. Enter the "Resource group" as **$(rg)**
+		1. Under "Control Options", change "Run this task" to **Even if a previous task has filed, unless the deployment was cancelled**. 
+1. Configure the inputs in the "Variables" tab. 
+	1. Add a variable
+		1. With "Name" **env**
+		1. With "Value" **int**
+		1. With "Scope" **Integration**
+	1. Add a variable
+		1. With "Name" **rg**
+		1. With "Value" **[UI]int[N]**
+		1. With "Scope" **Integration**
+	1. Add a variable
+		1. With "Name" **webAppName**
+		1. With "Value" **[UI]-pixeltracker-[N]**
+		1. With "Scope" **Integration**	
