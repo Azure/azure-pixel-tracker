@@ -88,10 +88,8 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
     1. Select "Add Task", and choose the **Gradle** task.
         1. Enter *test* for "Tasks"
         1. Change "Test Results Files" to **\*\*/build/test-results/test/TEST-*.xml**
-        1. Choose a "Location" for deploying the resource group.
-        1. Provide a "Template" location, which by default will be **azuredeploy.json**.
-        1. Provide a "Template paramters" location, which by default will be **azuredeploy.parameters.json**.
-        1. Change "Deployment mode" from **Incremental** to **Validation only**.
+        1. Select **Cobertura** for the "Code Coverage Tool"
+		1. Select "Run FindBugs"
     1. Select "Save & queue".
  1. Configure the gating build to execute when a pull request is created by enabling protection on the master branch.
     1. Return to the "Files" tab of your repository. 
@@ -103,7 +101,7 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
         1. Select "+Add build policy"
             1. Choose the "Build definition" that you created in the previous step.
             1. Select "Save".   
-            
+
 ### Configure the Java artifacts build
 1. From the "Build" tab, select "+New"
 1. Select "Empty process" in the "Select a template" page.
@@ -210,15 +208,37 @@ We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N 
 		1. Enter the "Resource group" as **$(rg)**
 		1. Under "Control Options", change "Run this task" to **Even if a previous task has filed, unless the deployment was cancelled**. 
 1. Configure the inputs in the "Variables" tab. 
-	1. Add a variable
-		1. With "Name" **env**
-		1. With "Value" **int**
-		1. With "Scope" **Integration**
-	1. Add a variable
-		1. With "Name" **rg**
-		1. With "Value" **[UI]int[N]**
-		1. With "Scope" **Integration**
-	1. Add a variable
-		1. With "Name" **webAppName**
-		1. With "Value" **[UI]-pixeltracker-[N]**
-		1. With "Scope" **Integration**	
+	1. Add a variable...
+		1. with "Name" **env**.
+		1. with "Value" **int**.
+		1. with "Scope" **Integration**.
+	1. Add a variable...
+		1. with "Name" **rg**.
+		1. with "Value" **[UI]int[N]**.
+		1. with "Scope" **Integration**.
+	1. Add a variable...
+		1. with "Name" **webAppName**.
+		1. with "Value" **[UI]-int-pixeltracker-[N]**.
+		1. with "Scope" **Integration**.
+1. Add a Production Environment in the "Pipeline" tab.
+	1. Select the "Inegration" Enviroment
+	1. When moused over the step, the "Clone" button will appear, click this. 
+	1. Click the "Copy of Inegration", and change the name to "Production". 
+	1. Select the "Production" env from the "Tasks" tab dropdown to disable the "Clean Up" Step.
+		1. Select the final step and disable or remove. 
+	1. Disable any other steps that you would not like to run on the production environment. You may also want to use a different subscription for your production environment. 
+1. Configure the production inputs in the "Variables" tab. 
+	1. Add a variable...
+		1. with "Name" **env**.
+		1. with "Value" **prod**.
+		1. with "Scope" **Production**.
+	1. Add a variable...
+		1. with "Name" **rg**.
+		1. with "Value" **[UI]prod[N]**.
+		1. with "Scope" **Production**.
+	1. Add a variable...
+		1. with "Name" **webAppName**.
+		1. with "Value" **[UI]-prod-pixeltracker-[N]**.
+		1. with "Scope" **Production**.
+	
+		
