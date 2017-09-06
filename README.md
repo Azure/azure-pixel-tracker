@@ -59,5 +59,5 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 ©2017 Microsoft Corporation. All rights reserved. This information is provided "as-is" and may change without notice. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 ![][pixel-2]
 
-[pixel-1]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=main%2FREADME.MD&location=top)
-[pixel-2]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=main%2FREADME.MD&location=bottom)
+[pixel-1]: (http://pixeltracker.azurewebsites.net/pixel.gif?page=main%2FREADME.MD&location=top)
+[pixel-2]: (http://pixeltracker.azurewebsites.net/pixel.gif?page=main%2FREADME.MD&location=bottom)
