@@ -206,4 +206,6 @@ In the following steps, if any entry or item is not mentioned in the instruction
 14. Upload "cortana-pixeltracker-server-1.0-SNAPSHOT.jar" and "web.config" from the resources folder to this location. 
 15. Navigate to **uniquestring**.azurewebsites.net/pixel.jpg?var1=test&var2=test2 to test the service. 
 
-[pixel-1]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=Techincal+Deployment+Guide%2FREADME.MD&section=Summary)
+ ![][pixel-2]
+[pixel-1]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=Manual+Guide%2FREADME.MD&section=Top)
+[pixel-1]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=Manual+Guide%2FREADME.MD&section=Bottom)
