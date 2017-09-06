@@ -8,7 +8,7 @@ A tracking pixel is a small unseen image embedded into web sites, emails or appl
 ```
 https://pixeltracker.azurewebsites.net/pix?customerId=123&product=ac12&activity=purchase
 ```
-The query string parameters are extracting from the request, and then advanced transformations can be performed. Some examples would be extracting information from the request from the user agent string, or using the IP address to perform a reverse lookup to estimated location. Design considerations ensure that additional custom transformations could be added quickly. Once transformed, the data is collected in Azure and persisted in a place that it can be queried and visualized by other services. 
+The query string parameters are extracted from the request, and then advanced transformations can be performed. Some examples would be extracting information from the request from the user agent string, or using the IP address to perform a reverse lookup to estimated location. Design considerations ensure that additional custom transformations could be added quickly. Once transformed, the data is collected in Azure and persisted in a place that it can be queried and visualized by other services. 
 
 The objective of this guide is to demonstrate how to configure the cortana intelligence solution for deploying a pixel tracker. Marketers can use this data to understand customer activity and can use it build better product selection algorithms.
 ## What's Under the Hood
