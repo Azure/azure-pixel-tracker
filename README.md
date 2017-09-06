@@ -1,7 +1,6 @@
 
-![](http://pixeltracker.azurewebsites.net/pixel.gif?page=github-azure-pixel-tracker-readme)#  Azure Digital Marketing - Pixel Tracker
-
-
+#  Azure Digital Marketing - Pixel Tracker
+![](http://pixeltracker.azurewebsites.net/pixel.gif?page=github-azure-pixel-tracker-readme)
 A marketer may want to be able to track their customers activities across a large medium of experiences. First, they would want to be able to understand customers activates on their main website. They would want to gather data to learn what pages customers were viewing, but more importantly what ads were customers being shown. And then where those ads successful, were their customer's clicking on them? This would be important to track and understand as they begin deploying machine learning models trained on this data and to understand the financial benefit. Then other parts of the business could be beginning sending data, such as if a customer answered a phone call, or clicked on an ad in an email. Examing all of this data in one location can help make deeper connections. The interface for sending data would have to simple, and be able to plug into many legacy systems written in a variety of languages. Some data feeds would be sent from internal sources, while others would originate from customer’s computers or browsers. These requirements lead to designing a pixel tracker that would be deployed on Azure. Azure enables such a system to quickly scale up as more business units plug into the services with a complete breakdown of cost. These are advantages over a typical on-prem based solution that a company would have had to build themselves to implement a custom solution previously. Companies do not have to try and keep up with their own hardware in case of increase customer base which would increase operating costs. 
 
 So, what is a Tracking Pixel? 
