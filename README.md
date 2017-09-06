@@ -57,4 +57,4 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 ## Disclaimer
 ©2017 Microsoft Corporation. All rights reserved. This information is provided "as-is" and may change without notice. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-<iframe width="800" height="600" src="https://msit.powerbi.com/view?r=eyJrIjoiOTA1YWE2NWItNTI3MC00ZjgyLWExMDQtNWZhYjQyOTUxODg2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+<img width="800" height="600" src="https://msit.powerbi.com/view?r=eyJrIjoiOTA1YWE2NWItNTI3MC00ZjgyLWExMDQtNWZhYjQyOTUxODg2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9"></img>
