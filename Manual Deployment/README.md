@@ -1,5 +1,4 @@
-
-#Marketing Pixel Tracker Solution ![][pixel-1]
+# Marketing Pixel Tracker Solution ![][pixel-1]
 
 ## Table of Contents
 - [Introduction](#introduction)
