@@ -208,4 +208,4 @@ In the following steps, if any entry or item is not mentioned in the instruction
 
  ![][pixel-2]
 [pixel-1]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=Manual+Guide%2FREADME.MD&section=Top)
-[pixel-1]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=Manual+Guide%2FREADME.MD&section=Bottom)
+[pixel-2]: (http://pixeltracker.azurewebsites.net/pixel.gif&page=Manual+Guide%2FREADME.MD&section=Bottom)
