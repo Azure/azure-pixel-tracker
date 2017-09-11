@@ -9,9 +9,6 @@
    - [Azure Event Hubs](#eventhub)
    - [Azure Stream Analytics](#asa)
    - [Azure Web App](#webapp)
-- [PowerBI Dashboard](#powerbi-dashboard)
-   - [Local setup](#pbilocal)
-   - [Publishing](#pbipublish)
 
 ## Introduction
 
