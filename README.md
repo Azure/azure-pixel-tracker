@@ -37,7 +37,7 @@ See the [Continuous Release Guide](https://github.com/Azure/azure-pixel-tracker/
 
 For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
 
-# Artificate Intelligance
+# Artifact Intelligence
 Learn how to expand this solution by adding AI workloads to process the tracked pixels. 
 
 ### Personalzied Offers in Online Retail
