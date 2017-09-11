@@ -37,6 +37,13 @@ See the [Continuous Release Guide](https://github.com/Azure/azure-pixel-tracker/
 
 For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
 
+# Artificate Intelligance
+Learn how to expand this solution by adding AI workloads to process the tracked pixels. 
+
+### Personalzied Offers in Online Retail
+Coming Soon
+See the [Personalized Offers in Online Retail Guide]() folder for a full set of instructions on how to expand this solution with AI. 
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
