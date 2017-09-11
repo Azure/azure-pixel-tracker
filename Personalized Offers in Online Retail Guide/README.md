@@ -1,4 +1,4 @@
-This guide is based on the README provided [here](https://github.com/Azure/cortana-intelligence-personalized-offers-retail/blob/master/Technical%20Deployment%20Guide/README.md).
+This guide is based on the README provided [here](https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Manual%20Deployment%20Guide).
 
 Particular sections that are different will be detailed here. Otherwise that guide should be followed. 
 
