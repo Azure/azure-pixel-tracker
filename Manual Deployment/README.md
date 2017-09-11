@@ -1,4 +1,4 @@
-# Marketing Pixel Tracker Solution ![][pixel-1]
+# Marketing Pixel Tracker Solution ![](pixel-1)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -15,13 +15,9 @@
 
 ## Introduction
 
-The objective of this Guide is to demonstrate... .  Retailers can use these predictions to... . This tutorial also shows how .
+The objective of this guide is to demonstrate how to configure the cortana intelligence solution for manually deploying a pixel tracker. Marketers can use this data to understand customer activity and can use it build better product selection algorithms.
 
 The end-to-end solution is implemented in the cloud, using Microsoft Azure. The solution is composed of several Azure components, including data ingest, data storage, data movement, advanced analytics and visualization.
-
-This deployment guide will walk you through the steps of creating a pixel tracker solution, including:
-
-- 
 
 ## Prerequisites
 
@@ -42,7 +38,7 @@ The following are the steps to deploy the end-to-end solution for the predictive
 
 ### Accessing Files in the Git Repository
 
-This tutorial will refer to files available in the Technical Deployment Guide section of the [Cortana Intelligence Pixel Tracker solution git repository](). You can download all of these files at once by clicking the "Clone or download" button on the repository.
+This tutorial will refer to files available in the resources section of the [Cortana Intelligence Pixel Tracker solution git repository](https://github.com/Azure/azure-pixel-tracker/tree/master/resources). You can download all of these files at once by clicking the "Clone or download" button on the repository.
 
 You can download or view individual files by navigating through the repository folders. If you choose this option, be sure to download the "raw" version of each file by clicking the filename to view it, then cliking Download.
 
@@ -50,7 +46,7 @@ You can download or view individual files by navigating through the repository f
 
 You will need a unique string to identify your deployment because some Azure services, e.g. Azure Storage requires a unique name for each instance across the service. We suggest you use only letters and numbers in this string and the length should not be greater than 9.
  
-We suggest you use "[UI]pixel[N]"  where [UI] is the user's initials,  N is a random integer that you choose and characters must be entered in in lowercase. Please open your memo file and write down "unique:[unique]" with "[unique]" replaced with your actual unique string.
+We suggest you use "[UI]pixeltracker[N]"  where [UI] is the user's initials,  N is a random integer that you choose and characters must be entered in in lowercase. Please open your memo file and write down "unique:[unique]" with "[unique]" replaced with your actual unique string.
 
 ### Create an Azure Resource Group
 
