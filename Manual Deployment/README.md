@@ -199,5 +199,5 @@ In the following steps, if any entry or item is not mentioned in the instruction
 11. Navigate to the Kudu Console for your Web App at **unique string**.scm.azurewebsites.net
 12. Go to "Debug console", then select "CMD"
 13. Navigate to "D:\home\site\wwwroot"
-14. Upload "cortana-pixeltracker-server-1.0-SNAPSHOT.jar" and "web.config" from the resources folder to this location. 
+14. Upload "cortana-pixeltracker-server-1.0-SNAPSHOT.jar" and "web.config" from the resources folder to this location. Note, the provided file is zipped to reduce the size. You must first unzip it to extract the jar. 
 15. Navigate to **uniquestring**.azurewebsites.net/pixel.jpg?var1=test&var2=test2 to test the service. 
