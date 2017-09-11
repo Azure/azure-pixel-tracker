@@ -28,10 +28,6 @@ This solution package contains materials to help both technical and business aud
 ### Manual Deployment
 See the [Manual Deployment Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Manual%20Deployment) folder for a full set of instructions on how to put together and deploy the Pixel Tracker Solution using the Azure Portal. 
 
-### Automated Deployment
-See the [Automated Deployment Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Automated%20Deployment) folder for a full set of instructions on how to put together and deploy the Pixel Tracker Solution using an Azure resource manager template. 
-
-
 ### Continuous Release 
 See the [Continuous Release Guide](https://github.com/Azure/azure-pixel-tracker/tree/master/Continuous%20Release) folder for a full set of instructions on how to put together a contiousus build and release process for the Pixel Tracker Solution using Visual Studio Team Services.
 
