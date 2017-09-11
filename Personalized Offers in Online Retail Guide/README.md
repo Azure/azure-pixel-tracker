@@ -2,12 +2,6 @@ This guide is based on the README provided [here](https://github.com/Azure/corta
 
 Particular sections that are different will be detailed here. Otherwise that guide should be followed. 
 
-# 1. Create a new Azure Resource Group
-It is recommended you follow the steps and create a new resource group. This will help seperate the resources in your Azure Subscription, and make it easier to clean up one solution while not impacting the other. 
-
-# 2. Azure Storage Account
-Follow this step.
-
 # 3. Azure Event Hub
 We will instead use the Event Hub created when we created the pixel tracker. Navitage to that event hub and to ensure processing of the hub is successful 
 we need to create [consumer groups](https://azure.microsoft.com/en-us/documentation/articles/event-hubs-programming-guide/#event-consumers) on the hub. 
