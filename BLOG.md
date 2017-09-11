@@ -1,6 +1,6 @@
 # Azure Digital Marketing Pixel Tracker Starter Guide
 
-We released a new starter guide for Azure detailing how you can deploy and configure a custom pixel tracker solution. The guide includes manual steps for deploying the solution using the Azure Portal, as well as a detailed guide on configurating a continous developlment enviromenet using Visual Studio Team Services. 
+We released a new starter guide for Azure detailing how you can deploy and configure a custom pixel tracker solution. The guide includes manual steps for deploying the solution using the Azure Portal, as well as a detailed guide on configurating a continous developlment environment using Visual Studio Team Services. 
 
 [The solution can be found on GitHub](https://github.com/Azure/azure-pixel-tracker). 
 
