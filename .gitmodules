@@ -7,3 +7,12 @@
 [submodule "AI/Customer 360 using Machine Learning/cortana-intelligence-customer360"]
 	path = AI/Customer 360 using Machine Learning/cortana-intelligence-customer360
 	url = https://github.com/Azure/cortana-intelligence-customer360
+[submodule "AI/Customer Churn Prediction Guide/cortana-intelligence-churn-prediction-solution"]
+	path = AI/Customer Churn Prediction Guide/cortana-intelligence-churn-prediction-solution
+	url = https://github.com/Azure/cortana-intelligence-churn-prediction-solution.git
+[submodule "AI/Personalized Offers in Online Retail Guide/cortana-intelligence-personalized-offers"]
+	path = AI/Personalized Offers in Online Retail Guide/cortana-intelligence-personalized-offers
+	url = https://github.com/Azure/cortana-intelligence-personalized-offers.git
+[submodule "AI/Demand Forecasting/cortana-intelligence-price-optimization"]
+	path = AI/Demand Forecasting/cortana-intelligence-price-optimization
+	url = https://github.com/Azure/cortana-intelligence-price-optimization.git
