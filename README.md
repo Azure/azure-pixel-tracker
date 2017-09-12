@@ -35,18 +35,22 @@ See the [Continuous Release Guide](https://github.com/Azure/azure-pixel-tracker/
 
 For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
 
-# Artifact Intelligence - Coming Soon
+# Artifact Intelligence
 Learn how to expand this solution by adding AI workloads to process the tracked pixels. 
 
 ### Personalzied Offers in Online Retail
-Personalized offers use a shopper's real-time and historical data to focus on the user, enabling a moere efficioent engagement between business owners and customers. This greatly enchances customers' user experince increaing repeat vistors and the opportunity for cross-selling or up-selling with less human labor invovled. See the [Personalized Offers in Online Retail Guide](https://github.com/Azure/azure-pixel-tracker/blob/master/AI/Personalized%20Offers%20in%20Online%20Retail%20Guide.MD) folder for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
+Personalized offers use a shopper's real-time and historical data to focus on the user, enabling a moere efficioent engagement between business owners and customers. This greatly enchances customers' user experince increaing repeat vistors and the opportunity for cross-selling or up-selling with less human labor invovled. See the [Personalized Offers in Online Retail Guide](/AI/Personalized%20Offers%20in%20Online%20Retail%20Guide.MD) for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
 
 ### Customer Churn Prediction
-Customer Churn Prediction uses Cortana Intelligence Suite components to predict churn probability and helps find patterns in existing data associated with the predicted churn rate. See the [Customer Churn Prediction Guide]() folder for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
+Customer Churn Prediction uses Cortana Intelligence Suite components to predict churn probability and helps find patterns in existing data associated with the predicted churn rate. See the [Customer Churn Prediction Guide]() for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
 
 ### Demand Forecasting and Price Optimization for Retail
 This solution utilizes transaction data to train a demand forecasting model. Pricing of products in a competing group is also incorporated to predict cross-product impacts such as cannibalization. A price optimization algorithm then employs the model to forecast demand at various candidate price points and takes into account business constraints to maximize profit. The solution can be customized to analyze various pricing scenarios as long as the general data science approach remains similar.
-See the [Demand Forecasting and Price Optimization for Retail Guide]() folder for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
+See the [Demand Forecasting and Price Optimization for Retail Guide]() for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
+
+### Customer 360 using Machine Learning on Azure
+The Customer 360 solution provides you a scalable way to build a customer profile enriched by machine learning. It also allows you to uniformly access and operate on data across disparate data sources (while minimizing raw data movement) and leverage the power of Microsoft R Server for scalable modelling and accurate predictions.
+See the [Customer 360 using Machine Learning on Azure Guide]() for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
 
 # Contributing
 
