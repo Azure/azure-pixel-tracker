@@ -4,3 +4,6 @@
 [submodule "azure-pixel-tracker-arm"]
 	path = azure-pixel-tracker-arm
 	url = https://github.com/Azure/azure-pixel-tracker-arm.git
+[submodule "AI/Customer 360 using Machine Learning/cortana-intelligence-customer360"]
+	path = AI/Customer 360 using Machine Learning/cortana-intelligence-customer360
+	url = https://github.com/Azure/cortana-intelligence-customer360
