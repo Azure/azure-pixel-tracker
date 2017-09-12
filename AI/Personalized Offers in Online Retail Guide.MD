@@ -1,4 +1,4 @@
-#[Personalized Offers in Online Retail Guide.MD][0]
+# [Personalized Offers in Online Retail Guide.MD][0]
 
 Use the [manual][1] or [automated][2] deployment guide to launch the Personalized Offers solution into your Azure subscription. 
 
