@@ -1,4 +1,6 @@
- Use the [manual][1] or [automated][2] deployment guide to launch the Personalized Offers solution into your Azure subscription. 
+[Personalized Offers in Online Retail Guide.MD][0]
+
+Use the [manual][1] or [automated][2] deployment guide to launch the Personalized Offers solution into your Azure subscription. 
 
 The Pixel Tracker and Personalized Offers will be linked together using Azure Stream Analytics. Stream Analytics will be used to filter the Pixel Tracker Event Hub to only the events of intereste for the personalized offers solution. It will then output that data into the Event Hub deployed in the personalized offers resource group, where it will be consumed by that solution. 
 
@@ -45,5 +47,6 @@ The Pixel Tracker and Personalized Offers will be linked together using Azure St
 13. In the new panel, choose "Now" for the "Job output start time".
 14. Click the **Start** button at the bottom.  
 
+[0]: https://gallery.cortanaintelligence.com/Solution/Personalized-Offers-2
 [1]: https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Manual%20Deployment%20Guide
 [2]: https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Automated%20Deployment%20Guid
