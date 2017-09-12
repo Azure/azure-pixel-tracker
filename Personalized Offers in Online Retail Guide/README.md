@@ -1,4 +1,3 @@
-
 Use the [manual](https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Manual%20Deployment%20Guide) or automated deployment guide to launch the Personalized Offers solution into your Azure subscription. 
 
 Once completed follow the steps here to tie together the two solutions. 
@@ -25,26 +24,15 @@ Once completed follow the steps here to tie together the two solutions.
 - Click ***Create***
 
 1.Click *Outputs* on the left to open the Inputs Blade  
-
 	1. At the top of the *Inputs* page click __+ADD OUTPUT__
-
 	1. In the new panel:
 		a. *Input Alias* : **ClickActivity**
 		b. *Source Type* : **Data stream**
-
 	1. *Source* : **Event hub**
-
 	1. *Subscription* : Use event hub from current subscription
-
 	1. *Service bus namespace* : **unique string for personaloffers deployment**
-
 	1. *Event hub name* : **personalizedofferseh**
-
 	1. *Event hub policy name* : **RootManageSharedAccessKey**
-
 	1. *Event serialization format* : JSON
-
 	1. *Encoding* : UTF-8
-
 	1. Click __Create__
-
