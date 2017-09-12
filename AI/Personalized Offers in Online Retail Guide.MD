@@ -1,4 +1,4 @@
- Use the [manual](1) or [automated](2) deployment guide to launch the Personalized Offers solution into your Azure subscription. 
+ Use the [manual][1] or [automated][2] deployment guide to launch the Personalized Offers solution into your Azure subscription. 
 
 Once completed follow the steps here to tie together the two solutions. 
 
