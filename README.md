@@ -35,12 +35,17 @@ See the [Continuous Release Guide](https://github.com/Azure/azure-pixel-tracker/
 
 For technical problems or questions about deploying this solution, please post in the issues tab of the repository.
 
-# Artifact Intelligence
+# Artifact Intelligence - Coming Soon
 Learn how to expand this solution by adding AI workloads to process the tracked pixels. 
 
 ### Personalzied Offers in Online Retail
-Coming Soon
 See the [Personalized Offers in Online Retail Guide]() folder for a full set of instructions on how to expand this solution with AI. 
+
+### Customer Churn Prediction
+See the [Customer Churn Prediction Guide]() folder for a full set of instructions on how to expand this solution with AI. 
+
+### Demand Forecasting and Price Optimization for Retail
+See the [Demand Forecasting and Price Optimization for Retail Guide]() folder for a full set of instructions on how to expand this solution with AI. 
 
 # Contributing
 
