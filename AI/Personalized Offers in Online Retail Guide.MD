@@ -34,5 +34,5 @@ Once completed follow the steps here to tie together the two solutions.
 1. *Encoding* : UTF-8
 1. Click __Create__
 
-[1]: (https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Manual%20Deployment%20Guide)
-[2]: (https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Automated%20Deployment%20Guide)
+[1]: https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Manual%20Deployment%20Guide
+[2]: https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Automated%20Deployment%20Guide
