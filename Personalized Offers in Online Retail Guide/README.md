@@ -1,11 +1,8 @@
-Use the [manual](https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Manual%20Deployment%20Guide) or automated deployment guide to launch the Personalized Offers solution into your Azure subscription. 
+ Use the [manual](https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Manual%20Deployment%20Guide) or automated deployment guide to launch the Personalized Offers solution into your Azure subscription. 
 
 Once completed follow the steps here to tie together the two solutions. 
 
-# 1. Azure Stream Analytics Jobs
-
-
-### Input configuration for the Stream Analytics jobs:
+### 1. Click *Inputs* on the left to open the Inputs Blade  
 -	Navigate to ***portal.azure.com*** and login in to your account.
 -	On the left tab click ***Resource Groups***
 -	Click on the resource group we created earlier ***personaloffers_resourcegroup*** 
@@ -23,7 +20,7 @@ Once completed follow the steps here to tie together the two solutions.
 	- ***Encoding***: UTF-8
 - Click ***Create***
 
-### 1.Click *Outputs* on the left to open the Inputs Blade  
+### 1. Click *Outputs* on the left to open the Outputs Blade  
 1. At the top of the *Inputs* page click __+ADD OUTPUT__
 1. In the new panel:
 	a. *Input Alias* : **ClickActivity**
