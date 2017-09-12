@@ -9,7 +9,7 @@ https://pixeltracker.azurewebsites.net/pix?customerId=123&product=ac12&activity=
 ```
 The query string parameters are extracted from the request, and then advanced transformations can be performed. Some examples would be extracting information from the request from the user agent string, or using the IP address to perform a reverse lookup to estimated location. Design considerations ensure that additional custom transformations could be added quickly. Once transformed, the data is collected in Azure and persisted in a place that it can be queried and visualized by other services. 
 
-This solution can be used to provide event collection for other Azure solutions. Steps are included to add Artifical Intelligance system to provide personalied offers. The pages viewed are tracked and collected with this solution, while the data is analyzed using a product affinity model. Personalized offers are provided through an additional API. 
+This solution can be used to provide event collection for other [Azure solutions](https://gallery.cortanaintelligence.com/solutions). Steps are included to add Artifical Intelligance system to provide personalied offers. The pages viewed are tracked and collected with this solution, while the data is analyzed using a product affinity model. Personalized offers are provided through an additional API. 
 
 The objective of this guide is to demonstrate how to configure the cortana intelligence solution for deploying a pixel tracker. Marketers can use this data to understand customer activity and can use it build better product selection algorithms.
 ## What's Under the Hood
