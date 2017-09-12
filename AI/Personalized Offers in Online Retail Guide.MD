@@ -1,4 +1,4 @@
- Use the [manual](https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Manual%20Deployment%20Guide) or automated deployment guide to launch the Personalized Offers solution into your Azure subscription. 
+ Use the [manual](1) or [automated](2) deployment guide to launch the Personalized Offers solution into your Azure subscription. 
 
 Once completed follow the steps here to tie together the two solutions. 
 
@@ -34,3 +34,5 @@ Once completed follow the steps here to tie together the two solutions.
 1. *Encoding* : UTF-8
 1. Click __Create__
 
+[1]: (https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Manual%20Deployment%20Guide)
+[2]: (https://github.com/Azure/cortana-intelligence-personalized-offers/tree/master/Automated%20Deployment%20Guide)
