@@ -24,9 +24,8 @@ The Pixel Tracker and Personalized Offers will be linked together using Azure St
 10. Return to the Stream Analytics job overview panel and click **Outputs**.
 :10. In the new panel, click **+ Add** to add an output. In the "New output" panel:
     1. Enter **poEventHub** for the "Output alias".
-    2. Choose **Data Stream** for the "Source type".
-    3. Choose **Event hub** for the "Source".
-    5. Choose your **personalized offers unique string** for the "Service bus namespace".
+    2. Choose **Service bus Queue** for "Sink"    
+    3. Choose your **personalized offers queue** for the "Service bus namespace".
     6. Choose **personalized offers** for the "Event hub name".    
     7. Leaving other fields on their default values, click the **Create** button at the bottom.
 11. Return to the Stream Analytics job overview panel and click **Query**.
