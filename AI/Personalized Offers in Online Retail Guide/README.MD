@@ -14,9 +14,9 @@ The Pixel Tracker and Personalized Offers will be linked together by connecting 
 7. Click on the **App Service** contained within the resource group. 
 8. Navitage to **Application Settings** under **Settings**.
 9. Add a new **Connection strings**
-    i. Name: PersonalizedOffers
-    i. Value: Connection String from step 5.
-    i. Type: Custom
+    1. Name: PersonalizedOffers
+    2. Value: Connection String from step 5.
+    3. Type: Custom
 10. Click **Save**, the service will reset.
 11. Confirm the module was activated correctly by navitaged to your web app index page, {webappname}.azurewebsites.net and that "Personalized Offers" is set to true. 
 
