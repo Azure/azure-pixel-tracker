@@ -39,7 +39,7 @@ For technical problems or questions about deploying this solution, please post i
 Learn how to expand this solution by adding AI workloads to process the tracked pixels. 
 
 ### Personalzied Offers in Online Retail
-Personalized offers use a shopper's real-time and historical data to focus on the user, enabling a moere efficioent engagement between business owners and customers. This greatly enchances customers' user experince increaing repeat vistors and the opportunity for cross-selling or up-selling with less human labor invovled. See the [Personalized Offers in Online Retail Guide](/AI/Personalized%20Offers%20in%20Online%20Retail%20Guide) for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
+Personalized offers use a shopper's real-time and historical data to focus on the user, enabling a more efficient engagement between business owners and customers. This greatly enchances customers' user experince increaing repeat vistors and the opportunity for cross-selling or up-selling with less human labor invovled. See the [Personalized Offers in Online Retail Guide](/AI/Personalized%20Offers%20in%20Online%20Retail%20Guide) for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
 
 ### Customer Churn Prediction
 Customer Churn Prediction uses Cortana Intelligence Suite components to predict churn probability and helps find patterns in existing data associated with the predicted churn rate. See the [Customer Churn Prediction Guide](/AI/Customer%20Churn%20Prediction%20Guide) for a full set of instructions on how to expand the Pixel Tracking solution with this AI. 
